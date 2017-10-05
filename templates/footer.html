@@ -1,0 +1,7 @@
+{% block footer %}
+  {% if now %}
+    <p>Now: {{now}}</p>
+  {% else %}
+    <p>This article is from the Internet.</p>
+  {% endif %}
+{% endblock %}
